@@ -571,12 +571,15 @@ body {
 }
 
 .job-card.expanded .job-card-body {
-  max-height: 600px;
+  max-height: 5000px;
 }
 
 .record-list {
   padding: 0 20px 16px;
   border-top: 1px solid var(--gray-100);
+  max-height: 400px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .record-list-title {
